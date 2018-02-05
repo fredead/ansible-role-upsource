@@ -30,6 +30,25 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
+
+func match(a,b []int) (count int) {
+    for _,i := range a
+        for _,j := range b {
+            if j == i {
+                count++
+            }
+        }
+    }
+    return
+}
+
+
+
+
+
+
+
+
 BSD
 
 Author Information
